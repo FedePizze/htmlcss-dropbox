@@ -23,7 +23,7 @@
     position: relative;
 }
 
-.row1::after, .row2::after, .menù::after{
+.row1::after, .row2::after, .menù::after, .after::after{
     content: "";
     display: table;
     clear: both;
@@ -134,4 +134,162 @@
     padding: 30px;
 }
 /* fine jumbotron */
+
+
+
+/* inizio main */
+main{
+    padding-top: 200px;
+}
+
+main .row1 h2{
+    font-size: 40px;
+}
+
+main .row1 h5{
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#bottoni{    
+    line-height: 20px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+#circle1{
+    width: 17px;
+    height: 17px;
+    border: 5px solid #0061ff;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+#circle2{
+    width: 17px;
+    height: 17px;
+    border: 1px solid #b8b8b8;
+    border-radius: 50%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* inizio piani */
+.after{
+    height: 660px;
+    width: 100%;
+}
+
+.box33{
+    width: 30%;
+    float: left;
+}
+
+.after div:nth-child(2){
+    margin: 0% 5%;
+}
+
+.bottom{
+    border: 2px solid #b8b8b8;
+    width: 100%;
+}
+
+.space{
+    padding: 30px 15px 0px 15px;
+    height: 900px;
+}
+
+.bottom h6, .bottom li{
+    font-size: 15px;
+    font-weight: 400;
+    vertical-align: middle;
+}
+
+.simbolo{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 2px solid #b8b8b8;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.box33 .bottom h2{
+    font-size: 35px;
+    margin-bottom: 8px;
+}
+
+.box33 .bottom h3{
+    font-size: 15px;
+    margin-bottom: 8px;
+    font-weight: 900;
+}
+
+.box33 .bottom h5{
+    font-size: 13px;
+    margin-bottom: 40px;
+    color: rgb(134, 134, 134);
+    font-weight: 600;
+}
+
+.box33 .bottom h6{
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+#tastobox{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    margin: 40px 0px;
+    padding: 8px 0;
+}
+
+.box33 .bottom h6 a{
+    text-decoration: underline;
+}
+
+.box33 .bottom nav{
+    margin-top: 20px;
+}
+
+.box33 .bottom nav ul li{
+    list-style: none;
+    font-size: 13px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.fa-check{
+    font-size: 13px;
+    font-weight: 500;
+    color: #0061ff;
+}
+
+.fa-pencil-alt{
+    font-size: 14px;
+    display: inline;
+}
+
+.fa-user-plus, .fa-user{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.air{
+    display: inline;
+}
+
+.line{
+    width: 40px;
+    border-bottom: 2px solid #b8b8b8;
+    margin: 30px 0;
+}
+/* fine colonne */
+
+
 

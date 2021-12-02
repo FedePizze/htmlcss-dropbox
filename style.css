@@ -12,7 +12,6 @@
     max-width: 1180px;
     margin: 0 auto;
     height: 100%;
-    line-height: 80px;
 }
 
 .row2{
@@ -21,6 +20,7 @@
     margin: 0 auto;
     height: 100%;
     line-height: 80px;
+    position: relative;
 }
 
 .row1::after, .row2::after, .menù::after{
@@ -35,38 +35,103 @@
     color: white;
 }
 
-/* inizi menù */
-header{
-    padding: 20px 0;
-    font-weight: 500;
-    width: 100%;
-    display: flex;
+.box50{
+    width: 50%;
+    line-height: 20px;
 }
 
-header .menù div:first-child{
-    width: 50vw;
+.box30L{
+    width: 30%;
     float: left;
+    line-height: 20px;
 }
 
-header .menù div:last-child{
-    width: 50vw;
+.box65R{
+    width: 65%;
     float: right;
     text-align: right;
 }
 
-.img{
-    vertical-align: middle;
+/* inizi menù */
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+    text-align: right;
 }
 
 .menù nav ul li{
     display: inline-block;
     margin: 0 20px;
+    line-height: 20px;
+    vertical-align: middle;
+}
+
+.menù{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 15px 0;
+    z-index: 1;
+}
+
+#absolut{
+    display: relative;
+    height: 20px;
 }
 /* fine menù */
 
 
 
 /* inizio jumbotron */
+.jumbotron{
+    background-color: #b4d0e7;
+    padding-bottom: 50px;
+}
 
+.jumbotron .row2 h1{
+    font-size: 75px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    line-height: 80px;
+}
+
+.box30L h2{
+    object-fit: cover;
+    font-size: 15px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+#margin{
+    margin-bottom: 40px;
+}
+
+.box65R{
+    position: absolute;
+    right: 0;
+}
+
+.tasto{
+    display: inline;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.fas{
+    font-size: 40px;
+}
+
+.box65R{
+    background-image: url('img/jumbo.png');
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 660px;
+    padding: 30px;
+}
 /* fine jumbotron */
 

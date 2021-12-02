@@ -52,6 +52,18 @@
     text-align: right;
 }
 
+.box60{
+    width: 60%;
+    float: left;
+}
+
+.box30{
+    width: 30%;
+    float: right;
+}
+
+
+
 /* inizi menù */
 
 .left{
@@ -180,7 +192,6 @@ main .row1 h5{
 
 /* inizio piani */
 .after{
-    height: 660px;
     width: 100%;
 }
 
@@ -189,7 +200,7 @@ main .row1 h5{
     float: left;
 }
 
-.after div:nth-child(2){
+main .after div:nth-child(2){
     margin: 0% 5%;
 }
 
@@ -292,4 +303,18 @@ main .row1 h5{
 /* fine colonne */
 
 
+
+/* inizio box100 */
+.box100{
+    margin-top: 60px;
+}
+
+.box60{
+    padding-left: 5%;
+    background-color: tomato;
+}
+
+.box30{
+    background-color: tomato;
+}
 

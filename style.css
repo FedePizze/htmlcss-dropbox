@@ -1,0 +1,72 @@
+/* generali */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row1{
+    width: 80%;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 80px;
+}
+
+.row2{
+    width: 90%;
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 100%;
+    line-height: 80px;
+}
+
+.row1::after, .row2::after, .menù::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bluebox{
+    padding: 7px 17px;
+    background-color: #0061ff;
+    color: white;
+}
+
+/* inizi menù */
+header{
+    padding: 20px 0;
+    font-weight: 500;
+    width: 100%;
+    display: flex;
+}
+
+header .menù div:first-child{
+    width: 50vw;
+    float: left;
+}
+
+header .menù div:last-child{
+    width: 50vw;
+    float: right;
+    text-align: right;
+}
+
+.img{
+    vertical-align: middle;
+}
+
+.menù nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+/* fine menù */
+
+
+
+/* inizio jumbotron */
+
+/* fine jumbotron */
+

@@ -380,7 +380,6 @@ a{
 }
 
 .fa-folder, .fa-pencil-alt, .fa-user-plusl, .fa-check{
-    float: left;
     width: 5%;
     display: inline-block;
 }

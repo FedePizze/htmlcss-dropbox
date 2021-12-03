@@ -78,6 +78,11 @@
     float: right;
 }
 
+.box20{
+    width: 20%;
+    float: left; 
+}
+
 
 /* inizi menù */
 
@@ -567,6 +572,49 @@ a{
 
 /* inizio footer */
 footer{
+    padding: 50px 0;
     background-color: black;
-    height: 400px;
+    color: white;
 }
+
+footer h5{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer ul li{
+    line-height: 25px;
+    font-size: 12px;
+    list-style: none;
+}
+
+footer .row2 .line{
+    width: 100px;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.last{
+    color: rgb(129, 129, 129);
+    line-height: 20px;
+}
+
+.fa-globe-europe{
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fa-chevron-up{
+    font-size: 7px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.last span{
+    font-size: 12px;
+    font-weight: 400;
+    vertical-align: middle;
+    margin: 0 3px;
+}
+

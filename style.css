@@ -433,6 +433,9 @@ a{
     object-fit: cover;
     width: 100%;
     vertical-align: middle;
+    fill: white;
+    filter: invert(100%) sepia(0%) saturate(100%) hue-rotate(0) brightness(100%) contrast(100%);
+    
 }
 
 .boxvh .box30L{
@@ -534,7 +537,6 @@ a{
 
 .faqline{
     width: 100%;
-    padding: 30px 0;
     border-top: 2px solid #e6e6e6;
     line-height: 20px;
 }
@@ -543,16 +545,19 @@ a{
     border-bottom: 2px solid #e6e6e6;
 }
 
-.faqline span{
+.top{
     font-weight: 700;
+    padding: 30px 0;
+    display: inline-block;
+    float: left;
+    width: 97%;
 }
 
 .fa-chevron-down{
     text-align: right;
-    vertical-align: middle;
     font-size: 20px;
     float: right;
-    position: relative;
+    width: 3%;
 }
 
 .texthover {
@@ -562,8 +567,12 @@ a{
     font-weight: 400;
 }
 
-.top:hover + .texthover {
+.top:hover + .texthover{
     display: block;
+}
+
+.fa-chevron-down{
+    padding: 30px 0;
 }
 /* fine faq */
 /* fine main */

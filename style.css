@@ -85,6 +85,10 @@
 
 
 /* inizi menù */
+header{
+    box-sizing: border-box;
+    background-color: white;
+}
 
 .left{
     float: left;
@@ -96,9 +100,20 @@
 
 .menù nav ul li{
     display: inline-block;
-    margin: 0 20px;
     line-height: 20px;
     vertical-align: middle;
+}
+
+.menù nav img{
+    margin-right: 20px;
+}
+
+.p20{
+    padding: 20px;
+}
+
+.p20:hover{
+    border-bottom: 2px solid #000;
 }
 
 .menù{
@@ -106,13 +121,44 @@
     top: 0;
     width: 100%;
     background-color: white;
-    padding: 15px 0;
     z-index: 1;
+    padding: 0px 30px;
 }
 
 #absolut{
     display: relative;
-    height: 20px;
+}
+
+.position{
+    position: absolute;
+    background-color: #e6ebf0;
+    padding: 20px 40px;
+    display: none;
+}
+
+.sottomenù1{
+    top: 60px;
+    right: 430px;
+}
+
+.sottomenù2{
+    top: 60px;
+    right: 217px;
+}
+
+.sottomenù3{
+    top: 60px;
+    right: 120px;
+}
+
+.position span{
+    display: block;
+    padding: 10px 0;
+    color: black
+}
+
+.p20:hover + .position{
+    display: inline;
 }
 /* fine menù */
 
@@ -362,7 +408,7 @@ a{
     margin-bottom: 70px;
 }
 
-.box100 .box60{
+.p5{
     padding-left: 5%;
 }
 

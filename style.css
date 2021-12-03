@@ -120,7 +120,7 @@
     line-height: 80px;
 }
 
-.box30L h2{
+.jumbotron .box30L h2{
     object-fit: cover;
     font-size: 15px;
     font-weight: 400;
@@ -271,7 +271,7 @@ main .row1 h5{
     padding: 8px 0;
 }
 
-.box33 .bottom h6 a{
+a{
     text-decoration: underline;
 }
 
@@ -321,15 +321,15 @@ main .row1 h5{
     margin-bottom: 80px;
 }
 
-.box60{
+.box100 .box60{
     padding-left: 5%;
 }
 
-.box60 h3{
+.box100 .box60 h3{
     margin: 20px 0 30px 0;
 }
 
-.box30{
+.box100 .box30{
     text-align: center;
 }
 
@@ -344,7 +344,6 @@ main .row1 h5{
 .after .box55 img{
     object-fit: cover;
     width: 100%;
-    
 } 
 
 .box55{
@@ -367,15 +366,33 @@ main .row1 h5{
 
 
 /* inizio sixbox */
-main h1{
-    font-size: 40px;
-}
 .size{
-    margin-top: 60px;
-    margin-bottom: 20px;
+    margin-top: 100px;
     font-weight: 700;
 }
 
 .after .box33 h6{
     margin-top: 25px;
+}
+
+.after .box33 img{
+    object-fit: cover;
+    width: 100%;
+}
+
+.businessline .after{
+    margin-top: 60px;
+}
+/* fine sixbox */
+
+
+
+/* inizio brandbox */
+.brandbox{
+    margin-top: 150px;
+}
+
+.brandbox a{
+    display: inline-block;
+    margin: 30px 0;
 }

@@ -23,7 +23,7 @@
     position: relative;
 }
 
-.row1::after, .row2::after, .menù::after, .after::after, .boxvh::after, .faqline::after{
+.row1::after, .row2::after, .menù::after, .after::after, .boxvh::after, .faqline::after, .double::after{
     content: "";
     display: table;
     clear: both;
@@ -212,7 +212,7 @@ main .row1 h5{
 
 
 
-/* inizio piani */
+/* inizio colonne */
 .after{
     width: 100%;
 }
@@ -263,9 +263,14 @@ main .row1 h5{
 
 .box33 .bottom h5{
     font-size: 13px;
-    margin-bottom: 40px;
     color: rgb(134, 134, 134);
     font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.bottom h4{
+    font-size: 15px;
+    font-weight: 700;
 }
 
 .box33 .bottom h6, .box100 .box60 h6, .after .box45 h6, .after .box33 h6, .boxvh .box40 h6, .brandbox a{
@@ -301,6 +306,7 @@ a{
     font-size: 13px;
     font-weight: 500;
     color: #0061ff;
+    top: 0;
 }
 
 .fa-pencil-alt{
@@ -325,6 +331,26 @@ a{
 
 .bluea{
     color: #0061ff;
+}
+
+.fa-folder, .fa-pencil-alt, .fa-user-plusl, .fa-check{
+    float: left;
+    width: 5%;
+    display: inline-block;
+}
+
+.space h6{
+    float: right;
+    width: 90%;
+    display: inline-block;
+}
+
+.two{
+    padding: 0;
+}
+
+.double{
+    margin-bottom: 20px;
 }
 /* fine colonne */
 
@@ -384,10 +410,6 @@ a{
 .size{
     margin-top: 100px;
     font-weight: 700;
-}
-
-.after .box33 h6{
-    margin-top: 25px;
 }
 
 .after .box33 img{
